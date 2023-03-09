@@ -1,0 +1,45 @@
+.info-wrap{
+    display: flex;
+}
+.image{
+    width: 75%;
+}
+.semi-wrap{
+    display: flex;
+}
+.semi-wrap h1{
+    width: 100%;
+    font-weight: 900;
+    font-size: 40px;
+    color: hsl(240, 100%, 5%);
+}
+.semi-wrap p{
+    width: 70%;
+    color: hsl(233, 8%, 79%);
+    font-size: 19px;
+}
+
+button{
+    background-color: hsl(5, 85%, 63%);
+    padding: 10px;
+    color: hsl(36, 100%, 99%);
+    border: none;
+}
+.small-wrap{
+    background-color: hsl(240, 100%, 5%);
+    color: hsl(36, 100%, 99%);
+    width: 75%;
+    
+}
+.small-wrap hr{
+    border: 1px thin white;
+    
+}
+.small-wrap h2{
+    color: hsl(35, 77%, 62%);
+}
+.section p{
+    font-size: 15px;
+    color: hsl(233, 8%, 79%);
+    padding: 9px;
+}

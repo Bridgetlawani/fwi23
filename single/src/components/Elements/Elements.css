@@ -1,0 +1,22 @@
+.big-div{
+    display: flex;
+}
+.first-div{
+    display: flex;
+    
+}
+.image{
+    width: 70%;
+}
+.text-div{
+    width: 100%;
+}
+.text-div h3, p{
+    font-size: 18px;
+    color: hsl(233, 8%, 79%);
+    
+
+}
+.text-div h4{
+    color: hsl(240, 100%, 5%);
+}
