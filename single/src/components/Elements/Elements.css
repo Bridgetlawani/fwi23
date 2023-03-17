@@ -4,6 +4,7 @@
 .first-div{
     display: flex;
     
+    
 }
 .image{
     width: 70%;
@@ -19,4 +20,14 @@
 }
 .text-div h4{
     color: hsl(240, 100%, 5%);
+    cursor: pointer;
+}
+.text-div h4:hover{
+    color: hsl(5, 85%, 63%);
+}
+@media (max-width:375px) {
+    .big-div{
+        flex-direction: column;
+    }
+    
 }

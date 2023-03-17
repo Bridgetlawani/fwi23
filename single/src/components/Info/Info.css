@@ -1,3 +1,5 @@
+
+
 .info-wrap{
     display: flex;
 }
@@ -24,6 +26,10 @@ button{
     padding: 10px;
     color: hsl(36, 100%, 99%);
     border: none;
+    cursor: pointer;
+}
+button:hover{
+    background-color: hsl(240, 100%, 5%);
 }
 .small-wrap{
     background-color: hsl(240, 100%, 5%);
@@ -42,4 +48,30 @@ button{
     font-size: 15px;
     color: hsl(233, 8%, 79%);
     padding: 9px;
+}
+.section h3{
+    cursor: pointer;
+}
+.section h3:hover{
+    color: hsl(35, 77%, 62%);
+
+}
+@media (max-width: 375px) {
+    .info-wrap{
+        flex-direction: column;
+    }
+    .semi-wrap{
+        flex-direction: column;
+    }
+    .image{
+        background-image: url("../assets/images/image-web-3-mobile.jpg");
+        object-fit: cover;
+        width: 100%;
+    }
+    .small-wrap{
+        width: 100%;
+    }
+    .semi-wrap p{
+        width: 100%;
+    }
 }

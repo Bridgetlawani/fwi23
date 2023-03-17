@@ -1,6 +1,7 @@
 import React from 'react'
 import './Info.css'
 import web from '../assets/images/image-web-3-desktop.jpg'
+// import mobile from '../assets/images/image-web-3-mobile.jpg'
 
 const Info = () => {
   return (

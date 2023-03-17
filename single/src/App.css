@@ -4,3 +4,8 @@
   box-sizing: border-box;
   font-family: 'Inter', sans-serif;
 }
+@media (max-width: 375px) {
+  *{
+    margin: 10px 5px;
+  }
+}

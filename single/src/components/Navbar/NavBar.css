@@ -18,3 +18,8 @@ ul li{
 ul li:hover {
     color: hsl(5, 85%, 63%);
 }
+@media(max-width: 375px) {
+    ul{
+        display: none;
+    }
+}
